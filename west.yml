@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: personal
+      url-base: git@github.com:Dvader30
+  defaults:
+    remote: personal
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v4.5.0
+      import: true
+    
+  self:
+    path: satcomms-ocs-rf-1.0.git
